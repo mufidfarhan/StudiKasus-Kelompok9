@@ -1,0 +1,24 @@
+<?php
+	header('Access-Control-Allow-Origin: *');
+	header('Content-Type: application/json');
+
+	require_once('../../config/database.php');
+
+	$data = json_decode(file_get_contents("php://input"));
+
+	if (isset($_GET['email'])) {
+		$email = $_GET['email'];
+		
+		$sql = $conn->prepare("DELETE * FROM order_list WHERE email=?");
+		$sql->bind_param("s", $email);
+		$sql->execute();
+
+		if($sql){
+			header("location: ../../ninesnkrs/index.php");
+		}else{
+			echo json_encode(array('RESPONSE' => 'FAILED'));
+		}
+	} else {
+		echo "FAILED";
+	}
+?>
