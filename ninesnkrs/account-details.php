@@ -1,4 +1,7 @@
 <?php
+	error_reporting(0);
+	ini_set('display_errors', 0);
+	
 	session_start();
 
 	if($_SESSION['customer']==""){
@@ -31,7 +34,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Contact</title>
+		<title>Account Details</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--===============================================================================================-->
@@ -83,11 +86,11 @@
 								</li>
 
 								<li>
-									<a href="about.php">About</a>
+									<a href="#">About</a>
 								</li>
 
 								<li>
-									<a href="contact.php">Contact</a>
+									<a href="#">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -152,11 +155,11 @@
 					</li>
 
 					<li>
-						<a href="about.php">About</a>
+						<a href="#">About</a>
 					</li>
 
 					<li>
-						<a href="contact.php">Contact</a>
+						<a href="#">Contact</a>
 					</li>
 				</ul>
 			</div>

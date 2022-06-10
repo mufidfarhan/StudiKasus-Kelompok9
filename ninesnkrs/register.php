@@ -53,11 +53,11 @@
 								</li>
 
 								<li>
-									<a href="about.php">About</a>
+									<a href="#">About</a>
 								</li>
 
 								<li>
-									<a href="contact.php">Contact</a>
+									<a href="#">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -68,7 +68,7 @@
 								<i class="zmdi zmdi-search"></i>
 							</div>
 
-							<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-cart">
+							<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11">
 								<i class="zmdi zmdi-shopping-cart"></i>
 							</div>
 
@@ -122,11 +122,11 @@
 					</li>
 
 					<li>
-						<a href="about.php">About</a>
+						<a href="#">About</a>
 					</li>
 
 					<li>
-						<a href="contact.php">Contact</a>
+						<a href="#">Contact</a>
 					</li>
 				</ul>
 			</div>

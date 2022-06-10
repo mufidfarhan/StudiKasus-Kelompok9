@@ -8,8 +8,9 @@
 
 	if (isset($_GET['email'])) {
 		$email = $_GET['email'];
+		echo $email;
 		
-		$sql = $conn->prepare("DELETE * FROM order_list WHERE email=?");
+		$sql = $conn->prepare("DELETE FROM customer_chart WHERE email=?");
 		$sql->bind_param("s", $email);
 		$sql->execute();
 

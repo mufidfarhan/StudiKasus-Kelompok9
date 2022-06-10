@@ -53,11 +53,11 @@
 								</li>
 
 								<li>
-									<a href="about.php">About</a>
+									<a href="#">About</a>
 								</li>
 
 								<li>
-									<a href="contact.php">Contact</a>
+									<a href="#">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -122,11 +122,11 @@
 					</li>
 
 					<li>
-						<a href="about.php">About</a>
+						<a href="#">About</a>
 					</li>
 
 					<li>
-						<a href="contact.php">Contact</a>
+						<a href="#">Contact</a>
 					</li>
 				</ul>
 			</div>

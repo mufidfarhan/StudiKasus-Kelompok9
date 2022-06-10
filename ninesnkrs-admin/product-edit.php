@@ -230,7 +230,7 @@
 
 					<!-- Settings -->
 					<li class="side-nav-menu-item">
-						<a class="side-nav-menu-link media align-items-center" href="settings.html">
+						<a class="side-nav-menu-link media align-items-center" href="#">
 							<span class="side-nav-menu-icon d-flex mr-3">
 								<i class="gd-settings"></i>
 							</span>
@@ -238,17 +238,6 @@
 						</a>
 					</li>
 					<!-- End Settings -->
-
-					<!-- Static -->
-					<li class="side-nav-menu-item">
-						<a class="side-nav-menu-link media align-items-center" href="static-non-auth.html">
-							<span class="side-nav-menu-icon d-flex mr-3">
-								<i class="gd-file"></i>
-							</span>
-							<span class="side-nav-fadeout-on-closed media-body">Static page</span>
-						</a>
-					</li>
-					<!-- End Static -->
 				</ul>
 			</aside>
 			<!-- End Sidebar Nav -->

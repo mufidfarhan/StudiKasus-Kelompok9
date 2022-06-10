@@ -31,7 +31,7 @@
 <html lang="en">
 	<head>
 		<!-- Title -->
-		<title>Add Product</title>
+		<title>Edit Customers</title>
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -153,6 +153,21 @@
 			<aside id="sidebar" class="js-custom-scroll side-nav">
 				<ul id="sideNav" class="side-nav-menu side-nav-menu-top-level mb-0">
 					<!-- Title -->
+					<li class="sidebar-heading h6">Dashboard</li>
+					<!-- End Title -->
+
+					<!-- Dashboard -->
+					<li class="side-nav-menu-item">
+							<a class="side-nav-menu-link media align-items-center" href="index.php">
+						<span class="side-nav-menu-icon d-flex mr-3">
+							<i class="gd-dashboard"></i>
+						</span>
+						<span class="side-nav-fadeout-on-closed media-body">Dashboard</span>
+						</a>
+					</li>
+					<!-- End Dashboard -->	
+				
+					<!-- Title -->
 					<li class="sidebar-heading h6">Customers</li>
 					<!-- End Title -->
 
@@ -214,7 +229,7 @@
 
 					<!-- Settings -->
 					<li class="side-nav-menu-item">
-						<a class="side-nav-menu-link media align-items-center" href="settings.html">
+						<a class="side-nav-menu-link media align-items-center" href="#">
 							<span class="side-nav-menu-icon d-flex mr-3">
 								<i class="gd-settings"></i>
 							</span>
@@ -222,17 +237,6 @@
 						</a>
 					</li>
 					<!-- End Settings -->
-
-					<!-- Static -->
-					<li class="side-nav-menu-item">
-						<a class="side-nav-menu-link media align-items-center" href="static-non-auth.html">
-							<span class="side-nav-menu-icon d-flex mr-3">
-								<i class="gd-file"></i>
-							</span>
-							<span class="side-nav-fadeout-on-closed media-body">Static page</span>
-						</a>
-					</li>
-					<!-- End Static -->
 				</ul>
 			</aside>
 			<!-- End Sidebar Nav -->

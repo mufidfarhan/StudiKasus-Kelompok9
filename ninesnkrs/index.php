@@ -1,4 +1,7 @@
 <?php
+	
+	error_reporting(0);
+	ini_set('display_errors', 0);
 	session_start();
 
 	function http_request($url) {
@@ -9,15 +12,15 @@
     curl_close($ch);
     return $output;
 	}
-	// $email = $_SESSION['customer'];
-	// $subtotal = 0;
+	$email = $_SESSION['customer'];
+	$subtotal = 0;
 
-	// $cart_list = http_request("http://localhost/ninesnkrs/api/customer_cart/cart-list.php?email='$email'");
-	// $cart_list = json_decode($cart_list, TRUE); 	
+	$cart_list = http_request("http://localhost/ninesnkrs/api/customer_cart/cart-list.php?email='$email'");
+	$cart_list = json_decode($cart_list, TRUE); 	
 	
 	$data = http_request("http://localhost/ninesnkrs/api/product/product-list.php");
 	$data = json_decode($data, TRUE);
-	
+
 ?>
 
 <!DOCTYPE html>
@@ -81,11 +84,11 @@
 								</li>
 
 								<li>
-									<a href="about.php">About</a>
+									<a href="#">About</a>
 								</li>
 
 								<li>
-									<a href="contact.php">Contact</a>
+									<a href="#">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -158,11 +161,11 @@
 					</li>
 
 					<li>
-						<a href="about.php">About</a>
+						<a href="#">About</a>
 					</li>
 
 					<li>
-						<a href="contact.php">Contact</a>
+						<a href="#">Contact</a>
 					</li>
 				</ul>
 			</div>
